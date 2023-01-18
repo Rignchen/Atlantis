@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"inv":{
+			"trigger": "tick",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": false
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "namespace:action/unsneak"
+	}
+}
