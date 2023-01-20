@@ -1,3 +1,3 @@
-# function #minecraft:load
+## function #minecraft:load
 
 tellraw @a "[namespace]:The datapack has been reloaded"

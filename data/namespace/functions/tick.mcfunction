@@ -1,1 +1,1 @@
-# function #minecraft:tick
+## function #minecraft:tick
