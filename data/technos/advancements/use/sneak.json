@@ -5,13 +5,13 @@
 			"conditions": {
 				"player": {
 					"flags": {
-						"is_sneaking": false
+						"is_sneaking": true
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "namespace:action/unsneak"
+		"function": "technos:action/sneak"
 	}
 }

@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "namespace:action/inventory"
+		"function": "technos:action/inventory"
 	}
 }

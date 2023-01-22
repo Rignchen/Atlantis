@@ -38,11 +38,11 @@ def max_linie(mcfunction):
 		maxi = out
 		bigest = mcfunction
 
-print("advancements:" + str(surch(["json"],"data/namespace/advancements")) + " (display: " + str(surch(["json"],"data/namespace/advancements/display")) + ")")
-print("functions:" + str(surch(["mcfunction"],"data/namespace/functions",max_linie)) + " (bigest: " + str(maxi) + " (" + bigest + "))")
-print("predicates:" + str(surch(["json"],"data/namespace/predicates")))
-print("recipes:" + str(surch(["json"],"data/namespace/recipes")))
-print("loot_tables:" + str(surch(["json"],"data/namespace/loot_tables")))
-print("plugin:" + str(surch(["json"],"data/namespace/tags/functions")))
+print("advancements:" + str(surch(["json"],"data/technos/advancements")) + " (display: " + str(surch(["json"],"data/technos/advancements/display")) + ")")
+print("functions:" + str(surch(["mcfunction"],"data/technos/functions",max_linie)) + " (bigest: " + str(maxi) + " (" + bigest + "))")
+print("predicates:" + str(surch(["json"],"data/technos/predicates")))
+print("recipes:" + str(surch(["json"],"data/technos/recipes")))
+print("loot_tables:" + str(surch(["json"],"data/technos/loot_tables")))
+print("plugin:" + str(surch(["json"],"data/technos/tags/functions")))
 if bad != []:print("/!\ some fonctions aren't comment: " + str(bad))
 input()
