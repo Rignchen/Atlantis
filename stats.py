@@ -3,6 +3,7 @@ from os import listdir, system
 maxi = 0
 bigest = ""
 bad = []
+mt = []
 system("cls")
 
 def surch(extension:list[str],path:str,function = None):
@@ -12,13 +13,13 @@ def surch(extension:list[str],path:str,function = None):
 	except FileNotFoundError:return 0
 	for a in liste:
 		try:
-			open(path + a).close()
+			listdir(path + a)
+			out += surch(extension,path + a,function)
+		except NotADirectoryError:
 			b = a.split(".")
 			if b[-1] in extension:
 				out += 1
 				if function:function(path + a)
-		except:
-			out += surch(extension,path + a)
 	return out
 
 def max_linie(mcfunction):
@@ -32,8 +33,10 @@ def max_linie(mcfunction):
 			bad.append(mcfunction)
 	except IndexError:bad.append(mcfunction)
 	for a in b:
-		if a[0] != "#" and a != "\n" and a != "":
+		if a != "" and a[0] != "#" and a != "\n":
 			out += 1
+	if out == 0:
+		mt.append(mcfunction)
 	if out >= maxi:
 		maxi = out
 		bigest = mcfunction
@@ -44,5 +47,6 @@ print("predicates:" + str(surch(["json"],"data/technos/predicates")))
 print("recipes:" + str(surch(["json"],"data/technos/recipes")))
 print("loot_tables:" + str(surch(["json"],"data/technos/loot_tables")))
 print("plugin:" + str(surch(["json"],"data/technos/tags/functions")))
-if bad != []:print("/!\ some fonctions aren't comment: " + str(bad))
+if bad != []:print("/!\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
+if mt != []:print("/!\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
 input()
