@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "technos:action/inventory"
+		"function": "atlantide:action/inventory"
 	}
 }

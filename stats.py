@@ -41,12 +41,12 @@ def max_linie(mcfunction):
 		maxi = out
 		bigest = mcfunction
 
-print("advancements:" + str(surch(["json"],"data/technos/advancements")) + " (display: " + str(surch(["json"],"data/technos/advancements/display")) + ")")
-print("functions:" + str(surch(["mcfunction"],"data/technos/functions",max_linie)) + " (bigest: " + str(maxi) + " (" + bigest + "))")
-print("predicates:" + str(surch(["json"],"data/technos/predicates")))
-print("recipes:" + str(surch(["json"],"data/technos/recipes")))
-print("loot_tables:" + str(surch(["json"],"data/technos/loot_tables")))
-print("plugin:" + str(surch(["json"],"data/technos/tags/functions")))
+print("advancements:" + str(surch(["json"],"data/atlantide/advancements")) + " (display: " + str(surch(["json"],"data/atlantide/advancements/display")) + ")")
+print("functions:" + str(surch(["mcfunction"],"data/atlantide/functions",max_linie)) + " (bigest: " + str(maxi) + " (" + bigest + "))")
+print("predicates:" + str(surch(["json"],"data/atlantide/predicates")))
+print("recipes:" + str(surch(["json"],"data/atlantide/recipes")))
+print("loot_tables:" + str(surch(["json"],"data/atlantide/loot_tables")))
+print("plugin:" + str(surch(["json"],"data/atlantide/tags/functions")))
 if bad != []:print("/!\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
 if mt != []:print("/!\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
 input()

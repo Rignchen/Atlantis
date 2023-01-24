@@ -5,13 +5,13 @@
 			"conditions": {
 				"player": {
 					"flags": {
-						"is_sneaking": true
+						"is_sneaking": false
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "technos:action/sneak"
+		"function": "atlantide:action/unsneak"
 	}
 }
