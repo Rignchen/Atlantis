@@ -1,3 +1,5 @@
 ## function #minecraft:load
 
-tellraw @a "[atlantide]:The datapack has been reloaded"
+scoreboard objectives add atlantide.use dummy
+
+tellraw @a "[Atlantide]:The datapack has been reloaded"
