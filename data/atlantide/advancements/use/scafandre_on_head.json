@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"scaf":{
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"items": [
+								"iron_helmet"
+							],
+							"nbt":"{atlantide:{armor:{helmet:1b}}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "atlantide:armor/scafandre_on_head"
+	}
+}

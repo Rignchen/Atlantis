@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "atlantide:items"
+							},
+							"ops": [
+								{
+									"source": "all.scafandre_head.tag",
+									"target": "{}",
+									"op": "merge"
+								}
+							]
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

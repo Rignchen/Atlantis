@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "atlantide:items"
+							},
+							"ops": [
+								{
+									"source": "all.scafandre.tag",
+									"target": "{}",
+									"op": "merge"
+								}
+							]
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+	"parent": "atlantide:display/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_helmet",
+			"nbt": "{CustomModelData:139401}"
+		},
+		"title": "Subaquatic",
+		"description": "You can breath under water"
+	},
+	"criteria": {
+		"armor": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"items": [
+								"glass"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

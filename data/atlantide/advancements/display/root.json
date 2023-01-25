@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		"title": "The world of Nemo",
+		"description": "Install the atlantide datapack",
+		"background": ""
+	},
+	"criteria": {
+		"tick":{
+			"trigger": "tick"
+		}
+	}
+}

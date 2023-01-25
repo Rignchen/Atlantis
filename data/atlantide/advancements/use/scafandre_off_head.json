@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"scaf": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"glass"
+						],
+						"nbt": "{atlantide:{armor:{helmet:1b}}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "atlantide:armor/scafandre_off_head"
+	}
+}

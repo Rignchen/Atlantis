@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"key": {
+		"I": {
+			"item": "iron_ingot"
+		},
+		"B": {
+			"item": "glass_bottle"
+		}
+	},
+	"pattern": [
+		"III",
+		"IBI"
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

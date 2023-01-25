@@ -5,27 +5,9 @@
 		"equipment": {
 			"head": {
 				"items": [
-					"iron_helmet"
+					"glass"
 				],
 				"nbt": "{atlantide:{armor:{helmet:1b}}}"
-			},
-			"chest": {
-				"items": [
-					"iron_chestplate"
-				],
-				"nbt": "{atlantide:{armor:{chestplate:1b}}}"
-			},
-			"legs": {
-				"items": [
-					"iron_leggings"
-				],
-				"nbt": "{atlantide:{armor:{leggings:1b}}}"
-			},
-			"feet": {
-				"items": [
-					"iron_boots"
-				],
-				"nbt": "{atlantide:{armor:{boots:1b}}}"
 			}
 		}
 	}

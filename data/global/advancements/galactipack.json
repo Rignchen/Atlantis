@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		"title": "Atlantide",
+		"description": "Ancien Tech jam",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:rignchen",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
