@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "atlantide:armor/scafandre_on_head"
+		"function": "atlantide:armor/scuba_on_head"
 	}
 }

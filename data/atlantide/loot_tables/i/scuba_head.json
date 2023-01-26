@@ -15,7 +15,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.scafandre_head.tag",
+									"source": "all.scuba_head.tag",
 									"target": "{}",
 									"op": "merge"
 								}

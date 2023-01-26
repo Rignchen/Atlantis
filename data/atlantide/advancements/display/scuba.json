@@ -5,8 +5,8 @@
 			"item": "minecraft:iron_helmet",
 			"nbt": "{CustomModelData:139401}"
 		},
-		"title": "Subaquatic",
-		"description": "You can breath under water"
+		"title": "Underwater",
+		"description": "You can now stay 2 minutes under the water"
 	},
 	"criteria": {
 		"armor": {
