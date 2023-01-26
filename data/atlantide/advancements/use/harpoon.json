@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"harpoon":{
+			"trigger": "shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": [
+						"crossbow"
+					],
+					"nbt": "{atlantide:{harpoon:1b}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "atlantide:action/harpoon"
+	}
+}

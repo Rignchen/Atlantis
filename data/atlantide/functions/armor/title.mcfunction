@@ -1,4 +1,4 @@
-## function atlantide:schedule_armor
+## function atlantide:schedule_scuba
 
 #title
 scoreboard players set #temp atlantide.oxygene 0
