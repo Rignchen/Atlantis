@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "atlantide:i/palms",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "atlantide:i/harpoon",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "heart_of_the_sea",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

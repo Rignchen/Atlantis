@@ -9,5 +9,3 @@ execute if score #temp1 atlantide.oxygene matches 1 store result score #temp atl
 
 execute if score #temp1 atlantide.oxygene matches 1 run function atlantide:action/harpoon_shot
 execute if score #temp1 atlantide.oxygene matches 0 positioned ~ ~1 ~ run function atlantide:action/harpoon_shot
-
-say a
