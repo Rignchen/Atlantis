@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+	"predicate": {
+		"equipment": {
+			"feet": {
+				"enchantments": [
+					{
+						"enchantment": "depth_strider",
+						"levels": {
+							"max":3,
+							"min": 2
+						}
+					}
+				]
+			}
+		}
+	}
+}
