@@ -1,3 +1,4 @@
 Base: 1394
 
-Aquatic armor: 139401
+Aquatic armor:	139401
+Runes:			139401

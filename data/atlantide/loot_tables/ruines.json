@@ -40,6 +40,11 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "atlantide:i/runes",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "atlantide:ruines_tresaur",
 					"weight": 2
 				}

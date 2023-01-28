@@ -2,6 +2,9 @@
 
 #new scoreboard
 scoreboard objectives add atlantide.oxygene dummy
+scoreboard objectives add atlantide.use0 dummy
+scoreboard objectives add atlantide.use1 dummy
+scoreboard objectives add atlantide.use2 dummy
 #set scoreboard
 scoreboard players set #max atlantide.oxygene 120
 scoreboard players set #temp atlantide.oxygene 3
@@ -14,11 +17,11 @@ scoreboard players operation #2_3 atlantide.oxygene += #2_3 atlantide.oxygene
 function atlantide:schedule
 
 #items
-data modify storage atlantide:items all.scuba set value {id:"minecraft:iron_helmet",Count:1b,tag:{ctc:{"id":"scuba",		"from":"rdm:atlantide","trait":{"armor/helmet":1b}},atlantide:{armor:{helmet:1b}},display:{'Name':'{"text":"Scuba","color":"aqua","italic":false}','Lore':['{"text":"Ideal for scuba diving","color":"gray"}','{"text": "Atlantide","color": "blue"}']},AttributeModifiers:[{Amount:1b,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"head"}]}}
-data modify storage atlantide:items all.scuba_head set value {id:"minecraft:glass",	Count:1b,tag:{ctc:{"id":"scuba_head",	"from":"rdm:atlantide","trait":{"armor/helmet":1b}},atlantide:{armor:{helmet:1b}},display:{'Name':'{"text":"Scuba","color":"aqua","italic":false}','Lore':['{"text":"Ideal for scuba diving","color":"gray"}','{"text": "Atlantide","color": "blue"}']},AttributeModifiers:[{Amount:1b,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"head"}]}}
-data modify storage atlantide:items all.palms set value {id:"minecraft:iron_boots",	Count:1b,tag:{ctc:{"id":"palms",		"from":"rdm:atlantide","trait":{"armor/boots":1b}},	atlantide:{armor:{boots:1b}}, display:{'Name':'{"text":"Palms","color":"aqua","italic":false}','Lore':['{"text":"Way faster underwater"	,"color":"gray"}','{"text": "Atlantide","color": "blue"}']},AttributeModifiers:[{Amount:0b,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"feet"}]}}
-
-data modify storage atlantide:items all.harpoon set value {id:"minecraft:crossbaw",Count:1b,tag:{ctc:{"id":"harpoon","from":"rdm:atlantide","trait":{"weapon":1b}},atlantide:{harpoon:1b},display:{'Name':'{"text":"Harpoon","color":"aqua","italic":false}','Lore':['{"text":"A weapon to shoot underwater","color":"gray"}','{"text": "Atlantide","color": "blue"}']}}}
+data modify storage atlantide:items all.scuba set value {id:"minecraft:iron_helmet",Count:1b,tag:{ctc:{"id":"scuba",		"from":"rdm:atlantide","trait":{"armor/helmet":1b}},atlantide:{armor:{helmet:1b}},	display:{'Name':'{"text":"Scuba","color":"aqua","italic":false}',	'Lore':['{"text":"Ideal for scuba diving","color":"gray"}',			'{"text": "Atlantide","color": "blue"}']},CustomModelData:139401,AttributeModifiers:[{Amount:1b,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"head"}]}}
+data modify storage atlantide:items all.scuba_head set value {id:"minecraft:glass",	Count:1b,tag:{ctc:{"id":"scuba_head",	"from":"rdm:atlantide","trait":{"armor/helmet":1b}},atlantide:{armor:{helmet:1b}},	display:{'Name':'{"text":"Scuba","color":"aqua","italic":false}',	'Lore':['{"text":"Ideal for scuba diving","color":"gray"}',			'{"text": "Atlantide","color": "blue"}']},CustomModelData:139401,AttributeModifiers:[{Amount:1b,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"head"}]}}
+data modify storage atlantide:items all.palms set value {id:"minecraft:iron_boots",	Count:1b,tag:{ctc:{"id":"palms",		"from":"rdm:atlantide","trait":{"armor/boots":1b}},	atlantide:{armor:{boots:1b}},	display:{'Name':'{"text":"Palms","color":"aqua","italic":false}',	'Lore':['{"text":"Way faster underwater"	,"color":"gray"}',		'{"text": "Atlantide","color": "blue"}']},CustomModelData:139401,AttributeModifiers:[{Amount:0b,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"feet"}]}}
+data modify storage atlantide:items all.harpoon set value {id:"minecraft:crossbaw",	Count:1b,tag:{ctc:{"id":"harpoon",		"from":"rdm:atlantide","trait":{"weapon":1b}},		atlantide:{harpoon:1b},			display:{'Name':'{"text":"Harpoon","color":"aqua","italic":false}',	'Lore':['{"text":"A weapon to shoot underwater","color":"gray"}',	'{"text": "Atlantide","color": "blue"}']},CustomModelData:139401}}
+data modify storage atlantide:items all.runes set value {id:enchanted_book,			Count:1b,tag:{ctc:{"id":"harpoon",		"from":"rdm:atlantide","trait":{"upgrade":1b}},										display:{Name:'{"text":"Rune","color": "gold","italic":false}',		'Lore':[															'{"text": "Atlantide","color": "blue"}']},CustomModelData:139401}}
 
 #marker
 summon marker 0 0 0 {UUID:[I;-2038574744,-1080734903,-1438197931,2050843175]}
