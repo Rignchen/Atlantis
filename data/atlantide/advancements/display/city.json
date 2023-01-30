@@ -1,0 +1,22 @@
+{
+	"parent": "atlantide:display/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine_bricks"
+		},
+		"title": "Atlantis",
+		"description": "Find a city underwater"
+	},
+	"criteria": {
+		"armor": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "atlantide:city"
+					}
+				}
+			}
+		}
+	}
+}

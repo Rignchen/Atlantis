@@ -1,0 +1,34 @@
+{
+	"parent": "atlantide:display/scuba",
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_boots",
+			"nbt": "{CustomModelData:139401}"
+		},
+		"title": "Swimsuit",
+		"description": "A perfect suit for scuba-diving"
+	},
+	"criteria": {
+		"scuba":{
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"items": [
+								"glass"
+							],
+							"nbt": "{atlantide:{armor:{helmet:1b}}}"
+						},
+						"feet": {
+							"items": [
+								"iron_boots"
+							],
+							"nbt": "{atlantide:{armor:{boots:1b}}}"
+						}
+					}
+				}
+			}
+		}
+	}
+}

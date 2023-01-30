@@ -2,8 +2,7 @@
 	"parent": "atlantide:display/root",
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_helmet",
-			"nbt": "{CustomModelData:139401}"
+			"item": "minecraft:glass"
 		},
 		"title": "Underwater",
 		"description": "You can now stay 2 minutes under the water"
@@ -17,7 +16,8 @@
 						"head": {
 							"items": [
 								"glass"
-							]
+							],
+							"nbt": "{atlantide:{armor:{helmet:1b}}}"
 						}
 					}
 				}
