@@ -5,7 +5,7 @@
 		},
 		"title": "The world of Nemo",
 		"description": "Install the atlantide datapack",
-		"background": "minecraft/textures/item/atlantis/water.png"
+		"background": "minecraft:textures/item/atlantis/water.png"
 	},
 	"criteria": {
 		"tick":{

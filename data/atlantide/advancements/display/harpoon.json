@@ -3,7 +3,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:crossbow",
-			"nbt": "{atlantide:{harpoon:1b},Charged:1b}"
+			"nbt": "{CustomModelData:139401,Charged:1b}"
 		},
 		"title": "Atlantis",
 		"description": "Find a city underwater",
