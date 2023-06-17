@@ -3,11 +3,11 @@
         "requirement": {
             "trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "atlantide:scuba"
+				"recipe": "atlantide:scafandre"
 			}
         }
     },
 	"rewards": {
-		"function": "atlantide:craft/scuba"
+		"function": "atlantide:craft/scafandre"
 	}
 }
